@@ -83,7 +83,7 @@ export const App = () => {
       {data.map((pokemon) => {
         return (
           <div key={pokemon.id} className="p-8, bg-white">
-            <div className="p-4">{pokemon.id} - {pokemon.name}</div>
+            <div className="p-4 text-blue-400 font-bold">{pokemon.id} - {pokemon.name}</div>
             <img src={pokemon.image} alt={pokemon.name} />
             
             <div className="flex flex-wrap p-4">
